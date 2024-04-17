@@ -78,7 +78,7 @@ public class ServiceImplSocio implements ServiceSocio<DtoSocio>{
            
             Sede se=usi.convertidorAEntidades(rse, Sede.class, idSede)
                 .orElseThrow(()->new EntityNotFoundException
-                ("Sede no encontrado"));
+                ("Sede no encontrada"));
             
             Socio s = ms.toEntity(dto);
             s.setPersona(p);
@@ -90,7 +90,7 @@ public class ServiceImplSocio implements ServiceSocio<DtoSocio>{
     }
 
     @Override
-    public ResponseEntity<String> update(Long id, DtoSocio dto, Long idDirector, Long idSede) {
+    public ResponseEntity<String> update(Long id, DtoSocio dto, Long idPersona, Long idSede) {
         return null;
     }
 

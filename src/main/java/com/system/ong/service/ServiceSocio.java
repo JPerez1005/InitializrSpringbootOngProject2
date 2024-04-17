@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 public interface ServiceSocio<Dto> {
     List<Dto> getAll() throws EmptyDataException,NoAuthorizedException;
     ResponseEntity<Optional<Dto>> getById(Long id);
-    ResponseEntity<String> create(Dto dto,Long idDirector,Long idSede);
-    ResponseEntity<String> update(Long id, Dto dto,Long idDirector,Long idSede);
+    ResponseEntity<String> create(Dto dto,Long idPersona,Long idSede);
+    ResponseEntity<String> update(Long id, Dto dto,Long idPersona,Long idSede);
     ResponseEntity<String> delete(Long id);
 }
