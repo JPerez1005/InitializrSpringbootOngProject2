@@ -29,8 +29,7 @@ Se requiere el desarrollo de una API RESTful con Spring Boot para administrar un
 ## Resultados
 
 ### diagrama de base de datos
-
-![alt text](img/25.png)
+<img href="img/25.png">
 como se puede ver se diferencian en colores
 ROJO: clases padre(no dependen de ninguna tabla)
 VERDE CREMA: clases intermediarias(dependen de algunas tablas)
