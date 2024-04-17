@@ -1,0 +1,158 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "api_proyecto_gestion_onu",
+    "dateExported": "2024-04-17T22:53:04.684Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "09d5dd91-3d06-4113-886b-ac7434f4cba4",
+            "name": "persona",
+            "containerId": "",
+            "created": "2024-04-15T07:53:08.784Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "09dcfa27-a437-4fe3-b6a0-a88dd251534e",
+            "name": "post",
+            "containerId": "09d5dd91-3d06-4113-886b-ac7434f4cba4",
+            "created": "2024-04-15T07:53:14.661Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "e5a57440-1913-47c1-a493-1c39b9f40d8e",
+            "name": "get",
+            "containerId": "09d5dd91-3d06-4113-886b-ac7434f4cba4",
+            "created": "2024-04-15T08:03:59.832Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "09ab3c8d-e5b2-43a4-8fe7-fd2dbe339597",
+            "name": "ciudad",
+            "containerId": "",
+            "created": "2024-04-17T22:35:35.494Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "3ae6a9d2-21c8-4a7d-8b43-3ee493c80bc1",
+            "name": "post",
+            "containerId": "09ab3c8d-e5b2-43a4-8fe7-fd2dbe339597",
+            "created": "2024-04-17T22:35:43.877Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "7acc71eb-916a-4ce1-8c8b-535f6a0c961a",
+            "name": "refugio",
+            "containerId": "",
+            "created": "2024-04-17T22:39:02.255Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "471387d3-49d3-4f9d-afbc-a8255fc2a989",
+            "name": "post",
+            "containerId": "7acc71eb-916a-4ce1-8c8b-535f6a0c961a",
+            "created": "2024-04-17T22:39:09.434Z",
+            "sortNum": 70000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "b0feae32-483d-47a0-a994-43ff1dc8e794",
+            "colId": "81451349-b992-4293-856f-90bbda0b9c2a",
+            "containerId": "09dcfa27-a437-4fe3-b6a0-a88dd251534e",
+            "name": "agregar_persona",
+            "url": "localhost:8080/persona/agregar_persona",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-15T07:53:25.451Z",
+            "modified": "2024-04-17T21:37:22.050Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Keren Perez Bueno\",\n  \"numero_identificacion\":\"123456789\",\n  \"telefono\":\"3158163844\",\n  \"rol\":\"Usuario\",\n  \"email\":\"karen@gmail.com\",\n  \"password\":\"ka1005\",\n  \"status\":\"true\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "72714f0b-d760-4f3a-9366-f8f7fafd2026",
+            "colId": "81451349-b992-4293-856f-90bbda0b9c2a",
+            "containerId": "e5a57440-1913-47c1-a493-1c39b9f40d8e",
+            "name": "listar_personas",
+            "url": "localhost:8080/persona/listar_personas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-15T08:04:07.469Z",
+            "modified": "2024-04-17T22:45:10.428Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrZW5pYUBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW5pc3RyYWRvciIsImV4cCI6MTcxMzM5NzQzMCwiaWF0IjoxNzEzMzkzODMwfQ.PlKmOght84Rgc6NEIE1ilpG_Q_RdXYQ0MUxl9OFltPE"
+            }
+        },
+        {
+            "_id": "30d07d28-2558-4c48-9ce9-d10a0ef8c38c",
+            "colId": "81451349-b992-4293-856f-90bbda0b9c2a",
+            "containerId": "09dcfa27-a437-4fe3-b6a0-a88dd251534e",
+            "name": "ingresar",
+            "url": "localhost:8080/persona/ingresar",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-04-15T16:53:07.661Z",
+            "modified": "2024-04-17T22:32:10.142Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"kenia@gmail.com\",\n  \"password\":\"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "16079c3b-dd58-46a4-99a6-782c4d702faa",
+            "colId": "81451349-b992-4293-856f-90bbda0b9c2a",
+            "containerId": "3ae6a9d2-21c8-4a7d-8b43-3ee493c80bc1",
+            "name": "crear_ciudad",
+            "url": "localhost:8080/ciudad/agregar",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-17T22:35:50.820Z",
+            "modified": "2024-04-17T22:37:47.420Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"california\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrZW5pYUBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW5pc3RyYWRvciIsImV4cCI6MTcxMzM5NjgzNCwiaWF0IjoxNzEzMzkzMjM0fQ.k85W6qlhfp5iWd2-sBFHWNBcbsYgjASj72pWv2H1RVI"
+            }
+        },
+        {
+            "_id": "1ce6e361-b48e-418a-949f-0fddb044f78d",
+            "colId": "81451349-b992-4293-856f-90bbda0b9c2a",
+            "containerId": "471387d3-49d3-4f9d-afbc-a8255fc2a989",
+            "name": "crear_refugio",
+            "url": "localhost:8080/refugio/agregar?idCiudad=1",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-04-17T22:39:16.982Z",
+            "modified": "2024-04-17T22:44:05.689Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "idCiudad",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrZW5pYUBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW5pc3RyYWRvciIsImV4cCI6MTcxMzM5NzQzMCwiaWF0IjoxNzEzMzkzODMwfQ.PlKmOght84Rgc6NEIE1ilpG_Q_RdXYQ0MUxl9OFltPE"
+            }
+        }
+    ]
+}
