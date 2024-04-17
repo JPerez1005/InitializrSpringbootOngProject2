@@ -107,11 +107,11 @@ ya al final solo es rellenar los datos necesarios
 ya despues habrán algunos casos donde se necesiten parametros necesarios
 como por ejemplo el refugio
 <p align="center">
-<img src="img/15.png" alt="Texto alternativo" width="500" height="400" />
+<img src="img/15.png" alt="Texto alternativo" width="500" height="280" />
 </p>
 estamos enviando los datos de la ciudad anteriormente agregada
 <p align="center">
-<img src="img/16.png" alt="Texto alternativo" width="500" height="400" />
+<img src="img/16.png" alt="Texto alternativo" width="500" height="280" />
 </p>
 no necesitamos enviar datos en el body por que no nos lo piden en el dto
 ![alt text](img/17.png)
@@ -129,7 +129,9 @@ siendo nosotros administradores se nos permite ver el listado de todos los usuar
 ## instalar thunder client en visual studio code como una extension
 ![alt text](img/21.png)
 yo lo recomiendo bastante
-![alt text](img/22.png)
+<p align="center">
+<img src="img/16.png" alt="Texto alternativo" width="200" height="100" />
+</p>
 en el archivo del programa dejé una colecciones de thunder client
 su modo de uso es el siguiente
 ![alt text](img/23.png)
