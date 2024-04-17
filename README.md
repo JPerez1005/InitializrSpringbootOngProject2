@@ -107,11 +107,11 @@ ya al final solo es rellenar los datos necesarios
 ya despues habrán algunos casos donde se necesiten parametros necesarios
 como por ejemplo el refugio
 <p align="center">
-<img src="img/15.png" alt="Texto alternativo" width="500" height="280" />
+<img src="img/15.png" alt="Texto alternativo" width="500" height="230" />
 </p>
 estamos enviando los datos de la ciudad anteriormente agregada
 <p align="center">
-<img src="img/16.png" alt="Texto alternativo" width="500" height="280" />
+<img src="img/16.png" alt="Texto alternativo" width="500" height="230" />
 </p>
 no necesitamos enviar datos en el body por que no nos lo piden en el dto
 ![alt text](img/17.png)
@@ -130,15 +130,19 @@ siendo nosotros administradores se nos permite ver el listado de todos los usuar
 ![alt text](img/21.png)
 yo lo recomiendo bastante
 <p align="center">
-<img src="img/16.png" alt="Texto alternativo" width="200" height="100" />
+<img src="img/22.png" alt="Texto alternativo" width="200" height="100" />
 </p>
 en el archivo del programa dejé una colecciones de thunder client
 su modo de uso es el siguiente
-![alt text](img/23.png)
+<p align="center">
+<img src="img/23.png" alt="Texto alternativo" width="300" height="400" />
+</p>
 ## organizar archivos
 se hace la importacion en las colecciones y esa es la ultima colleccion que tengo guardada, mas sin embargo usted mismo puede hacer mas carpetas e ir probando el programa
 en las colecciones que compartí se encuentran las carpetas junto con los request que eh probado hasta el momento
-![alt text](img/24.png)
+<p align="center">
+<img src="img/24.png" alt="Texto alternativo" width="300" height="400" />
+</p>
 ya despues de eso puede empezar a hacer muchas mas pruebas
 
 
