@@ -5,10 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.NamedQuery;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -49,4 +47,15 @@ public class Persona {
     
     @OneToOne(mappedBy = "persona")
     private Voluntario voluntario;
+
+    public Persona(String nombre, String numero_identificacion, String telefono, String rol, String email, String password, String status) {
+        this.nombre = nombre;
+        this.numero_identificacion = numero_identificacion;
+        this.telefono = telefono;
+        this.rol = rol;
+        this.email = email;
+        this.password = password;
+        this.status = status;
+    }
+    
 }

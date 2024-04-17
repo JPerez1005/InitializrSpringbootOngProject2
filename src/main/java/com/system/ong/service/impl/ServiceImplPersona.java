@@ -70,15 +70,15 @@ public class ServiceImplPersona implements ServicePersona<DtoPersona>{
 
     @Override
     public ResponseEntity<String> create(DtoPersona dto) {
-//        if(jf.isAdmin() || jf.isDirector()){
+        if(jf.isAdmin() || jf.isDirector()){
             if(rp.findByEmail(dto.getEmail())!=null){
                 return ExceptionUtil.getResponseEntity(Constantes.EXIST_DATA, HttpStatus.CONFLICT);
             }else{
                 usi.save(rp, dto, Persona.class);
                 return ExceptionUtil.getResponseEntity(Constantes.OK, HttpStatus.CREATED);
             }
-//        }
-//        return ExceptionUtil.getResponseEntity(Constantes.UNAUTHORIZED_ACCESS, HttpStatus.OK);
+        }
+        return ExceptionUtil.getResponseEntity(Constantes.UNAUTHORIZED_ACCESS, HttpStatus.OK);
     }
 
     @Override
