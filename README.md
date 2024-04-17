@@ -141,7 +141,7 @@ su modo de uso es el siguiente
 se hace la importacion en las colecciones y esa es la ultima colleccion que tengo guardada, mas sin embargo usted mismo puede hacer mas carpetas e ir probando el programa
 en las colecciones que compartí se encuentran las carpetas junto con los request que eh probado hasta el momento
 <p align="center">
-<img src="img/24.png" alt="Texto alternativo" width="300" height="400" />
+<img src="img/24.png" alt="Texto alternativo" width="350" height="380" />
 </p>
 ya despues de eso puede empezar a hacer muchas mas pruebas
 
