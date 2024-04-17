@@ -65,36 +65,36 @@ con el usuario recién creado ya podremos iniciar al sistema para que nos autori
 ![alt text](img/11.png)
 
 este seria el token que nos generan
-![alt text](image.png)
+![alt text](img/12.png)
 
 al tener ya el token podremos hacer muchas mas funcionalidades como por ejemplo crear una ciudad en la base de datos
-![alt text](image-1.png)
+![alt text](img/13.png)
 dejamos el token implementado para que nos dejen realizar la accion
 
 ya al final solo es rellenar los datos necesarios
 
-![alt text](image-2.png)
+![alt text](img/14.png)
 
 ya despues habrán algunos casos donde se necesiten parametros necesarios
 como por ejemplo el refugio
-![alt text](image-3.png)
+![alt text](img/15.png)
 estamos enviando los datos de la ciudad anteriormente agregada
-![alt text](image-4.png)
+![alt text](img/16.png)
 no necesitamos enviar datos en el body por que no nos lo piden en el dto
-![alt text](image-5.png)
+![alt text](img/17.png)
 como se puede ver solo tiene un id que ese es autoincremental y la ciudad, que es con el id que se relaciona el refugio
-![alt text](image-6.png)
+![alt text](img/18.png)
 probablemente le salga algun error de autorización esto es debido a que dejó pasar mucho tiempo el token ya que este dura por solo algunos minutos, esrto por cuestiones de seguridad
 pero simplemente es volver a iniciar y mandar el token
-![alt text](image-7.png)
+![alt text](img/19.png)
 despues de enviar el token ya de forma correcta nos permitirá crear el refugio ya creado
-![alt text](image-8.png)
+![alt text](img/20.png)
 siendo nosotros administradores se nos permite ver el listado de todos los usuarios
 
 # para hacer pruebas con thunder client
 
 ## instalar thunder client en visual studio code como una extension
-![alt text](image-9.png)
+![alt text](img/21.png)
 yo lo recomiendo bastante
 
 ## organizar archivos
