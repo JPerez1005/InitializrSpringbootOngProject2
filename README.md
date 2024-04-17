@@ -29,3 +29,17 @@ Se requiere el desarrollo de una API RESTful con Spring Boot para administrar un
 ## Resultados
 
 ### creación de usuarios
+
+![1](1.png)
+
+como se puede ver no se pueden crear usuarios, esto es debido a jwtya que no es un administrador el que está creando el usuario, en ese caso tenemos que ingresar un usuario ya existente, hay dos metodos para crear el usuario por primera vez, pruebas unitarias e inserccion en la base de datos
+
+**Por base de datos es de la siguiente forma**
+![alt text](2.png)
+es tan simple como seleccionar la base de datos anteriormente creada y enfocarnos en la tabla de personas
+
+![alt text](3.png)
+como se puede ver solo es dar click en el boton de + para agregar una nueva fila y celda por celda ir editando el nuevo usuario, así es la forma para crear un usuario por primera vez en base de datos, recordar hacer al usuario con un rol de administrador para poder ingresar en cualquier lugar
+
+![alt text](4.png)
+esos serían los roles existentes en la base de datos uselos segun los roles para que algunos usuarios no puedan ingresar a ciertos enlaces y ver información confidencial
