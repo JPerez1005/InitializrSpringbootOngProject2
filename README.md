@@ -28,6 +28,14 @@ Se requiere el desarrollo de una API RESTful con Spring Boot para administrar un
 
 ## Resultados
 
+### diagrama de base de datos
+
+![alt text](img/25.png)
+como se puede ver se diferencian en colores
+ROJO: clases padre(no dependen de ninguna tabla)
+VERDE CREMA: clases intermediarias(dependen de algunas tablas)
+AMARILLO: clases totalmente hijas(siempre dependen de alguna tabla)
+
 ### creación de usuarios
 
 ![1](img/1.png)
@@ -96,9 +104,18 @@ siendo nosotros administradores se nos permite ver el listado de todos los usuar
 ## instalar thunder client en visual studio code como una extension
 ![alt text](img/21.png)
 yo lo recomiendo bastante
-
+![alt text](img/22.png)
+en el archivo del programa dejé una colecciones de thunder client
+su modo de uso es el siguiente
+![alt text](img/23.png)
 ## organizar archivos
+se hace la importacion en las colecciones y esa es la ultima colleccion que tengo guardada, mas sin embargo usted mismo puede hacer mas carpetas e ir probando el programa
+en las colecciones que compartí se encuentran las carpetas junto con los request que eh probado hasta el momento
+![alt text](img/24.png)
+ya despues de eso puede empezar a hacer muchas mas pruebas
 
+
+# Continuación de Pruebas
 
 eso es todo por la documentacion de hoy
 **El proyecto ya está completamente terminado lo que no están es todas las pruebas, estan hechas pero no las eh probado,estoy seguro que funcionan sin ningun problema, mas sin embargo seguiré implementando metodos de uso ya que soy el que mejor conoce este programa, ahorita mismo no eh hecho todas las pruebas del programa y las iré probando poco a poco ya que son muchas tablas que fueron creadas y también iré mostrando las pruebas por aquí**
