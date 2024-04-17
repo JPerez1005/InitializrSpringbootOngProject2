@@ -50,15 +50,19 @@ como se puede ver no se pueden crear usuarios, esto es debido a que un servidor 
 es tan simple como seleccionar la base de datos anteriormente creada y enfocarnos en la tabla de personas
 
 <p align="center">
-<img src="img/3.png" alt="Texto alternativo" width="500" height="300" />
+<img src="img/3.png" alt="Texto alternativo" width="600" height="250" />
 </p>
 como se puede ver solo es dar click en el boton de + para agregar una nueva fila y celda por celda ir editando el nuevo usuario, así es la forma para crear un usuario por primera vez en base de datos, recordar hacer al usuario con un rol de administrador para poder ingresar en cualquier lugar
 
+<p align="center">
 ![alt text](img/4.png)
+</p>
 esos serían los roles existentes en la base de datos uselos segun los roles para que algunos usuarios no puedan ingresar a ciertos enlaces y ver información confidencial
 
 **Por JUnit es de la siguiente forma**
-![alt text](img/5.png)
+<p align="center">
+<img src="img/5.png" alt="Texto alternativo" width="500" height="500" />
+</p>
 es tan sencillo como dirigirse al editor de codigo netbeans o visual en la carpesta de paquetes de testeos
 
 ![alt text](img/6.png)
