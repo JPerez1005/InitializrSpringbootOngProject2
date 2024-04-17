@@ -60,3 +60,6 @@ y despues si el metodo es tan simple como correr el programa en el boton verde d
 como puede ver todo salió correctamente
 ![alt text](img/9.png)
 ![alt text](img/10.png)
+
+con el usuario recién creado ya podremos iniciar al sistema para que nos autorizen un token de autenticación
+![alt text](img/11.png)
