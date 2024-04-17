@@ -55,17 +55,19 @@ es tan simple como seleccionar la base de datos anteriormente creada y enfocarno
 como se puede ver solo es dar click en el boton de + para agregar una nueva fila y celda por celda ir editando el nuevo usuario, así es la forma para crear un usuario por primera vez en base de datos, recordar hacer al usuario con un rol de administrador para poder ingresar en cualquier lugar
 
 <p align="center">
-![alt text](img/4.png)
+<img src="img/3.png" alt="Texto alternativo" width="200" height="200" />
 </p>
 esos serían los roles existentes en la base de datos uselos segun los roles para que algunos usuarios no puedan ingresar a ciertos enlaces y ver información confidencial
 
 **Por JUnit es de la siguiente forma**
 <p align="center">
-<img src="img/5.png" alt="Texto alternativo" width="500" height="500" />
+<img src="img/5.png" alt="Texto alternativo" width="200" height="200" />
 </p>
 es tan sencillo como dirigirse al editor de codigo netbeans o visual en la carpesta de paquetes de testeos
 
-![alt text](img/6.png)
+<p align="center">
+<img src="img/6.png" alt="Texto alternativo" width="500" height="500" />
+</p>
 cuando se encuentre en ese archivo simplemente es cambiar cada dato por lo que usted desea, recuerde respetar los parametros
 
 ![alt text](img/7.png)
