@@ -87,7 +87,9 @@ como puede ver todo salió correctamente
 </p>
 
 con el usuario recién creado ya podremos iniciar al sistema para que nos autorizen un token de autenticación
-![alt text](img/11.png)
+<p align="center">
+<img src="img/11.png" alt="Texto alternativo" width="300" height="300" />
+</p>
 
 este seria el token que nos generan
 ![alt text](img/12.png)
@@ -98,13 +100,19 @@ dejamos el token implementado para que nos dejen realizar la accion
 
 ya al final solo es rellenar los datos necesarios
 
-![alt text](img/14.png)
+<p align="center">
+<img src="img/14.png" alt="Texto alternativo" width="300" height="380" />
+</p>
 
 ya despues habrán algunos casos donde se necesiten parametros necesarios
 como por ejemplo el refugio
-![alt text](img/15.png)
+<p align="center">
+<img src="img/15.png" alt="Texto alternativo" width="500" height="400" />
+</p>
 estamos enviando los datos de la ciudad anteriormente agregada
-![alt text](img/16.png)
+<p align="center">
+<img src="img/16.png" alt="Texto alternativo" width="500" height="400" />
+</p>
 no necesitamos enviar datos en el body por que no nos lo piden en el dto
 ![alt text](img/17.png)
 como se puede ver solo tiene un id que ese es autoincremental y la ciudad, que es con el id que se relaciona el refugio
