@@ -41,18 +41,26 @@ es necesario crear la base de datos como lo dice el sistema
 ![alt text](img/26.png)
 es solamente configurar la url el username y la contraseña de su base de datos
 en el archiv aplication.propierties
-![alt text](img/27.png)
+<p align="center">
+<img src="img/27.png" alt="Texto alternativo" width="200" height="200" />
+</p>
 despues de eso nos dirigimos a crear la base de datos
 recomiendo la siguiente extensión
 ![alt text](img/28.png)
 ya teniendo la extensión, creamos la conexión
-![alt text](img/29.png)
+<p align="center">
+<img src="img/29.png" alt="Texto alternativo" width="400" height="180" />
+</p>
 nos aparece la siguiente ventana
 ![alt text](img/30.png)
 simplemente es colocar los datoas necesarios en el usarname la base de datos que usaremos en este caso es mysql y la contraseña, al darle click a la conexión aparecerá un letrero verde que nos dirá conexión creada, y nos aparecerá lo siguiente:
-![alt text](img/31.png)
+<p align="center">
+<img src="img/31.png" alt="Texto alternativo" width="400" height="250" />
+</p>
 ahi estarán guardadas todas las conexiónes de la base de datos, le dan click a nueva, y con el link de url de aplication.properties creamos la base de datos con el mismo nombre en este caso es: **proyecto_sistema_gestionamiento_ong**
-![alt text](img/32.png)
+<p align="center">
+<img src="img/32.png" alt="Texto alternativo" width="500" height="150" />
+</p>
 con esto ya debería de funcionar perfectamente todo el programa
 
 
