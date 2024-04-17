@@ -59,3 +59,4 @@ y despues si el metodo es tan simple como correr el programa en el boton verde d
 
 como puede ver todo salió correctamente
 ![alt text](9.png)
+![alt text](10.png)
