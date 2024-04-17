@@ -36,6 +36,26 @@ ROJO: clases padre(no dependen de ninguna tabla)
 VERDE CREMA: clases intermediarias(dependen de algunas tablas)
 AMARILLO: clases totalmente hijas(siempre dependen de alguna tabla)
 
+## creación de la base de datos
+es necesario crear la base de datos como lo dice el sistema
+![alt text](img/26.png)
+es solamente configurar la url el username y la contraseña de su base de datos
+en el archiv aplication.propierties
+![alt text](img/27.png)
+despues de eso nos dirigimos a crear la base de datos
+recomiendo la siguiente extensión
+![alt text](img/28.png)
+ya teniendo la extensión, creamos la conexión
+![alt text](img/29.png)
+nos aparece la siguiente ventana
+![alt text](img/30.png)
+simplemente es colocar los datoas necesarios en el usarname la base de datos que usaremos en este caso es mysql y la contraseña, al darle click a la conexión aparecerá un letrero verde que nos dirá conexión creada, y nos aparecerá lo siguiente:
+![alt text](img/31.png)
+ahi estarán guardadas todas las conexiónes de la base de datos, le dan click a nueva, y con el link de url de aplication.properties creamos la base de datos con el mismo nombre en este caso es: **proyecto_sistema_gestionamiento_ong**
+![alt text](img/32.png)
+con esto ya debería de funcionar perfectamente todo el programa
+
+
 ### creación de usuarios
 <p align="center">
 <img src="img/1.png" alt="Texto alternativo" width="500" height="400" />
