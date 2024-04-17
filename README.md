@@ -29,8 +29,8 @@ Se requiere el desarrollo de una API RESTful con Spring Boot para administrar un
 ## Resultados
 
 ### diagrama de base de datos
+![Diagrama de base de datos](img/25.png)
 
-<img src="img/25.png" alt="Texto alternativo" width="500" height="400" />
 como se puede ver se diferencian en colores
 ROJO: clases padre(no dependen de ninguna tabla)
 VERDE CREMA: clases intermediarias(dependen de algunas tablas)
@@ -38,7 +38,7 @@ AMARILLO: clases totalmente hijas(siempre dependen de alguna tabla)
 
 ### creación de usuarios
 
-![1](img/1.png)
+<img src="img/1.png" alt="Texto alternativo" width="500" height="400" />
 
 como se puede ver no se pueden crear usuarios, esto es debido a que un servidor está apagado o jwt ya que no es un administrador el que está creando el usuario, en ese caso tenemos que ingresar un usuario ya existente, hay dos metodos para crear el usuario por primera vez, pruebas unitarias e inserccion en la base de datos, en este caso el servidor está apagado!!
 
