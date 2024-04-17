@@ -13,11 +13,11 @@ Se requiere el desarrollo de una API RESTful con Spring Boot para administrar un
 
 ### Aplicaciones usadas
 
-- Visual Studio Code
+- **Visual Studio Code:**
     -Thunder Client
     -MySQL
 
-- NetBeans
+- **NetBeans:**
     -Java
     -Springboot
     -JWT
