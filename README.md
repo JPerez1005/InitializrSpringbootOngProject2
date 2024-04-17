@@ -37,13 +37,16 @@ VERDE CREMA: clases intermediarias(dependen de algunas tablas)
 AMARILLO: clases totalmente hijas(siempre dependen de alguna tabla)
 
 ### creación de usuarios
-
-<img src="img/1.png" alt="Texto alternativo" width="500" height="400" />
+<center>
+    <img src="img/1.png" alt="Texto alternativo" width="500" height="400" />
+</center>
 
 como se puede ver no se pueden crear usuarios, esto es debido a que un servidor está apagado o jwt ya que no es un administrador el que está creando el usuario, en ese caso tenemos que ingresar un usuario ya existente, hay dos metodos para crear el usuario por primera vez, pruebas unitarias e inserccion en la base de datos, en este caso el servidor está apagado!!
 
 **Por base de datos es de la siguiente forma**
-![alt text](img/2.png)
+<center>
+    <img src="img/2.png" alt="Texto alternativo" width="200" height="300" />
+</center>
 es tan simple como seleccionar la base de datos anteriormente creada y enfocarnos en la tabla de personas
 
 ![alt text](img/3.png)
