@@ -53,7 +53,7 @@ public class ServiceImplPersona implements ServicePersona<DtoPersona>{
                     "-Revisar Implementación de la persona || "
                             + "-verificar Filtrados de Jason, roles existentes || "
                             + "-verificar base de datos",HttpStatus.FORBIDDEN);
-            throw e;
+        throw e;
     }
 
     @Override

@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 /**
  * @author perez
  */
-public interface ServiceAlimentos<Dto> {
+public interface ServiceMedicamentos<Dto> {
     List<Dto> getAll() throws EmptyDataException,NoAuthorizedException;
     ResponseEntity<Optional<Dto>> getById(Long id);
     ResponseEntity<String> create(Dto dto,Long idEnvioMaterial);

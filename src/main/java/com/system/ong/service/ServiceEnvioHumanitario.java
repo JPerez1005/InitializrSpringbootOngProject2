@@ -9,10 +9,10 @@ import org.springframework.http.ResponseEntity;
 /**
  * @author perez
  */
-public interface ServiceAlimentos<Dto> {
+public interface ServiceEnvioHumanitario<Dto> {
     List<Dto> getAll() throws EmptyDataException,NoAuthorizedException;
     ResponseEntity<Optional<Dto>> getById(Long id);
-    ResponseEntity<String> create(Dto dto,Long idEnvioMaterial);
-    ResponseEntity<String> update(Long id, Dto dto,Long idEnvioMaterial);
+    ResponseEntity<String> create(Dto dto,Long idEnvio);
+    ResponseEntity<String> update(Long id, Dto dto,Long idEnvio);
     ResponseEntity<String> delete(Long id);
 }
