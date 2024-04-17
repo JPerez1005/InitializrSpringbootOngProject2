@@ -1,0 +1,61 @@
+package com.system.ong.service.impl;
+
+import com.system.ong.dto.DtoVoluntario;
+import com.system.ong.exceptions.EmptyDataException;
+import com.system.ong.exceptions.NoAuthorizedException;
+import com.system.ong.mapper.MapperEnvio;
+import com.system.ong.mapper.MapperVoluntario;
+import com.system.ong.repositories.RepositoryEnvio;
+import com.system.ong.repositories.RepositoryPersona;
+import com.system.ong.repositories.RepositorySede;
+import com.system.ong.repositories.RepositoryVoluntario;
+import com.system.ong.security.jwt.JwtFilter;
+import com.system.ong.service.ServiceVoluntario;
+import java.util.List;
+import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+/**
+ * @author perez
+ */
+@Service
+public class ServiceImplVoluntario implements ServiceVoluntario<DtoVoluntario>{
+    @Autowired private JwtFilter jf;
+    
+    @Autowired private UniversalServiceImpl usi;
+    
+    @Autowired private MapperVoluntario mv;
+    
+    @Autowired private RepositoryVoluntario rv;
+    
+    @Autowired private RepositorySede rs;
+    
+    @Autowired private RepositoryPersona rp;
+
+    @Override
+    public List<DtoVoluntario> getAll() throws EmptyDataException, NoAuthorizedException {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public ResponseEntity<Optional<DtoVoluntario>> getById(Long id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public ResponseEntity<String> create(DtoVoluntario dto, Long idPersona, Long idSede) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public ResponseEntity<String> update(Long id, DtoVoluntario dto, Long idPersona, Long idSede) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public ResponseEntity<String> delete(Long id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
